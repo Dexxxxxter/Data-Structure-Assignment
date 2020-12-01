@@ -1,0 +1,60 @@
+Undirected Graph:
+A B C D E F G H I J K L M
+
+DFSTraverse_Recursive(mtx):
+A-B-3 B-E-7 E-D-5 E-I-63 I-G-45 G-L-37 L-K-56 K-J-18 J-C-49 C-F-9 I-H-7 H-M-3 
+DFSTraverse_NonRecursive(mtx):
+A-B-3 B-E-7 E-D-5 E-I-63 I-G-45 G-L-37 L-K-56 K-J-18 J-C-49 C-F-9 I-H-7 H-M-3 
+BFSTraverse(mtx):
+A-B-3 A-D-5 A-E-4 B-F-42 E-I-63 E-M-5 F-C-9 I-G-45 I-H-7 I-K-14 C-J-49 G-L-37 
+DFSTraverse(lst):
+A-D-5 D-E-5 E-B-7 B-F-42 F-C-9 C-J-49 J-K-18 K-I-14 I-H-7 H-M-3 I-G-45 G-L-37 
+DFSTraverse_NonRecursive(lst):
+A-D-5 D-E-5 E-B-7 B-F-42 F-C-9 C-J-49 J-K-18 K-I-14 I-H-7 H-M-3 I-G-45 G-L-37 
+BFSTraverse(lst):
+A-D-5 A-E-4 A-B-3 E-M-5 E-I-63 B-F-42 M-H-3 I-G-45 I-K-14 F-C-9 G-L-37 K-J-18 
+Directed Graph:
+A B C D E F G H I J K L M
+
+DFSTraverse_Recursive(mtx):
+A-B-3 B-E-7 E-I-63 I-G-45 I-K-14 K-J-18 J-C-49 K-L-56 E-M-5 M-H-3 B-F-42 A-D-5 
+DFSTraverse_NonRecursive(mtx):
+A-B-3 B-E-7 E-I-63 I-G-45 I-K-14 K-J-18 J-C-49 K-L-56 E-M-5 M-H-3 B-F-42 A-D-5 
+BFSTraverse(mtx):
+A-B-3 A-D-5 A-E-4 B-F-42 E-I-63 E-M-5 F-C-9 I-G-45 I-K-14 M-H-3 K-J-18 K-L-56 
+DFSTraverse(lst):
+A-D-5 D-E-5 E-M-5 M-H-3 H-I-7 I-G-45 I-K-14 K-J-18 J-C-49 K-L-56 A-B-3 B-F-42 
+DFSTraverse_NonRecursive(lst):
+A-D-5 D-E-5 E-M-5 M-H-3 H-I-7 I-G-45 I-K-14 K-J-18 J-C-49 K-L-56 A-B-3 B-F-42 
+BFSTraverse(lst):
+A-D-5 A-E-4 A-B-3 E-M-5 E-I-63 B-F-42 M-H-3 I-G-45 I-K-14 F-C-9 K-J-18 K-L-56 
+Undirected Graph:
+A B C D E F G H I J K L M
+
+DFSTraverse_Recursive(mtx):
+A-B-3 B-E-7 E-D-5 E-I-63 I-G-45 G-L-37 L-K-56 K-J-18 J-C-49 C-F-9 I-H-7 H-M-3 
+DFSTraverse_NonRecursive(mtx):
+A-B-3 B-E-7 E-D-5 E-I-63 I-G-45 G-L-37 L-K-56 K-J-18 J-C-49 C-F-9 I-H-7 H-M-3 
+BFSTraverse(mtx):
+A-B-3 A-D-5 A-E-4 B-F-42 E-I-63 E-M-5 F-C-9 I-G-45 I-H-7 I-K-14 C-J-49 G-L-37 
+DFSTraverse(lst):
+A-D-5 D-E-5 E-B-7 B-F-42 F-C-9 C-J-49 J-K-18 K-I-14 I-H-7 H-M-3 I-G-45 G-L-37 
+DFSTraverse_NonRecursive(lst):
+A-D-5 D-E-5 E-B-7 B-F-42 F-C-9 C-J-49 J-K-18 K-I-14 I-H-7 H-M-3 I-G-45 G-L-37 
+BFSTraverse(lst):
+A-D-5 A-E-4 A-B-3 E-M-5 E-I-63 B-F-42 M-H-3 I-G-45 I-K-14 F-C-9 G-L-37 K-J-18 
+Undirected Graph:
+A B C D E F G H I J K L M
+
+DFSTraverse_Recursive(mtx):
+A-B-3 B-E-7 E-D-5 E-I-63 I-G-45 G-L-37 L-K-56 K-J-18 J-C-49 C-F-9 I-H-7 H-M-3 
+DFSTraverse_NonRecursive(mtx):
+A-B-3 B-E-7 E-D-5 E-I-63 I-G-45 G-L-37 L-K-56 K-J-18 J-C-49 C-F-9 I-H-7 H-M-3 
+BFSTraverse(mtx):
+A-B-3 A-D-5 A-E-4 B-F-42 E-I-63 E-M-5 F-C-9 I-G-45 I-H-7 I-K-14 C-J-49 G-L-37 
+DFSTraverse(lst):
+A-D-5 D-E-5 E-B-7 B-F-42 F-C-9 C-J-49 J-K-18 K-I-14 I-H-7 H-M-3 I-G-45 G-L-37 
+DFSTraverse_NonRecursive(lst):
+A-D-5 D-E-5 E-B-7 B-F-42 F-C-9 C-J-49 J-K-18 K-I-14 I-H-7 H-M-3 I-G-45 G-L-37 
+BFSTraverse(lst):
+A-D-5 A-E-4 A-B-3 E-M-5 E-I-63 B-F-42 M-H-3 I-G-45 I-K-14 F-C-9 G-L-37 K-J-18 
